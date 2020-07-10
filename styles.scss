@@ -1,0 +1,16 @@
+
+
+@include component(btn){
+    height: 50px;
+    width: 100px;
+
+    
+
+    &:hover{
+        color: red;
+    }
+}
+
+@include tweak(rounded){
+    border-radius: 5px;
+}
